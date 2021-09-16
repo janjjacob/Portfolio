@@ -33,6 +33,37 @@ export const projects = [
   },
 ];
 
+export const experiences = [
+  {
+    title: "Robotics",
+    organization: "Pioneer Robotics 12589",
+    description:
+      "Leader of the CAD division of 12589 Pioneer Robotics, printing 43% of the team's robot. Achieved 20th place in the FIRST World Championship in Detroit and had the highest average autonomous scoring that worked in 100% of matches",
+    image: "./RoboticsImage.png",
+  },
+  {
+    title: "Beaver Works Summer Intern",
+    organization: "MIT Lincoln Laboratory",
+    description:
+      "Completed MIT Lincoln Laboratory STEM work in Embedded Security and Hacking, integrating a Linux based security system by integrating bootloader, BSP packages, and device drivers to secure firmware updates communicated between microcontrollers",
+    image: "./BeaverworksLogo.png",
+  },
+  {
+    title: "Teaching Assistant",
+    organization: "Northeastern University",
+    description:
+      "Held 4+ office hours per week to meet individual students for one-on-one academic support and tutoring and provided faculty support in grading and reviewing assignments on concepts such as gates and circuits and asymptotic time complexity",
+    image: "./NortheasternLogo.png",
+  },
+  {
+    title: "Oasis App Development",
+    organization: "Northeastern University",
+    description:
+      "Implemented backend features like the creation of users and interaction between users in the Connectwork app. Worked as group coordinator organizing meetings, establishing deadlines, and assigning tasks",
+    image: "./OasisLogo.png",
+  },
+];
+
 export const skills = [
   "Java",
   "Python",
@@ -46,4 +77,13 @@ export const skills = [
   "HTML",
   "Tableau",
   "Bootstrap",
+];
+
+export const ec = [
+  "Middle School Basketball Coach",
+  "Participated in Walk for Hunger",
+  "Organized Summer Basketball Camps",
+  "Altar Server at Church",
+  "Organized Robotics Summer Camp",
+  "Violin",
 ];
