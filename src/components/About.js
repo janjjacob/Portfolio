@@ -9,7 +9,10 @@ export default function About() {
             Hi, I'm Jan Jacob!
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a sophomore computer science major at Northearstern University
+            I'm a sophomore computer science major at Northeastern University!
+            I've focused my work on projects and designs that implement
+            user-facing features. I am looking to continue to develop my skill
+            set in software development and on predictive data analysis.
           </p>
           <div className="flex justify-center">
             <a

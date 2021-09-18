@@ -5,13 +5,16 @@ export default function Bottombar() {
     <header className="bg-blue-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-4 md:mb-0">
-          <a href="https://github.com/janjjacob">
+          <a href="https://github.com/janjjacob" target="_blank">
             <img
               className="object-cover object-center rounded"
               src="./githubLogo.svg"
             />
           </a>
-          <a href="https://www.linkedin.com/in/jan-jacob-955028203/">
+          <a
+            href="https://www.linkedin.com/in/jan-jacob-955028203/"
+            target="_blank"
+          >
             <img
               className="object-cover object-center rounded"
               src="./linkedinLogo.svg"

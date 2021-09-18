@@ -6,7 +6,7 @@ export default function Extracurriculars() {
   return (
     <section id="extracurriculars">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-10">
           <ChipIcon className="w-10 inline-block mb-4" />
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Extracurriculars I've had a lot of fun doing throughout the last few
