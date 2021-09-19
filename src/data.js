@@ -65,18 +65,54 @@ export const experiences = [
 ];
 
 export const skills = [
-  "Java",
-  "Python",
-  "JavaScript",
-  "C",
-  "React.js",
-  "node.js",
-  "NumPy",
-  "MATLAB",
-  "CSS",
-  "HTML",
-  "Tableau",
-  "Bootstrap",
+  {
+    skill: "Java",
+    image: "./java-icon.svg",
+  },
+  {
+    skill: "Python",
+    image: "./python-logo.svg",
+  },
+  {
+    skill: "JavaScript",
+    image: "./javascript-logo.svg",
+  },
+  {
+    skill: "C",
+    image: "./C-logo.svg",
+  },
+  {
+    skill: "React.js",
+    image: "./reactjs-icon.svg",
+  },
+  {
+    skill: "node.js",
+    image: "./nodejs-icon.svg",
+  },
+  {
+    skill: "NumPy",
+    image: "./numpy-icon.svg",
+  },
+  {
+    skill: "MATLAB",
+    image: "./matlab-logo.png",
+  },
+  {
+    skill: "CSS",
+    image: "./css-logo.svg",
+  },
+  {
+    skill: "HTML",
+    image: "./HTML-logo.svg",
+  },
+  {
+    skill: "Tableau",
+    image: "./java-icon.svg",
+  },
+  {
+    skill: "Tailwind",
+    image: "./tailwind-logo.svg",
+  },
 ];
 
 export const ec = [

@@ -15,7 +15,7 @@ export default function Experience() {
         <div className="flex flex-wrap -m-4">
           {experiences.map((experience) => (
             <a key={experience.image} className="sm:w-1/2 w-100 p-4">
-              <text className="text-white">{experience.title}</text>
+              <text className="text-white select-none">{experience.title}</text>
               <div className="flex relative">
                 <img
                   alt="gallery"
