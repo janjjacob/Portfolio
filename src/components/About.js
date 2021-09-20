@@ -1,19 +1,27 @@
 import React from "react";
+import Typist from "react-typist";
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black">
+          <Typist
+            className="title-font sm:text-4xl text-3xl mb-4 font-medium text-black"
+            cursor={{ hideWhenDone: true }}
+            avgTypingSpeed={100}
+          >
             Hi, I'm Jan Jacob!
-          </h1>
-          <p className="mb-8 leading-relaxed">
-            I'm a sophomore computer science major at Northeastern University!
-            I've focused my work on projects and designs that implement
-            user-facing features. I am looking to continue to develop my skill
-            set in software development and on predictive data analysis.
-          </p>
+          </Typist>
+          <FadeIn startDelay={5000}>
+            <p className="mb-8 leading-relaxed">
+              I'm a sophomore computer science major at Northeastern University!
+              I've focused my work on projects and designs that implement
+              user-facing features. I am looking to continue to develop my skill
+              set in software development and on predictive data analysis.
+            </p>
+          </FadeIn>
           <div className="flex justify-center">
             <a
               href="#contact"
