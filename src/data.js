@@ -39,7 +39,7 @@ export const experiences = [
     organization: "Pioneer Robotics 12589",
     description:
       "Leader of the CAD division of 12589 Pioneer Robotics, printing 43% of the team's robot. Achieved 20th place in the FIRST World Championship in Detroit and had the highest average autonomous scoring that worked in 100% of matches",
-    image: "./RoboticsImage.png",
+    image: "./Robotics-demo.gif",
   },
   {
     title: "Beaver Works Summer Intern",
