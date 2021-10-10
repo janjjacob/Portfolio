@@ -103,7 +103,7 @@ export const skills = [
   },
   {
     skill: "Tableau",
-    image: "./java-icon.svg",
+    image: "./tableau-logo.svg",
   },
 ];
 
