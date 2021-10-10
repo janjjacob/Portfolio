@@ -94,10 +94,6 @@ export const skills = [
     image: "./numpy-icon.svg",
   },
   {
-    skill: "MATLAB",
-    image: "./matlab-logo.png",
-  },
-  {
     skill: "CSS",
     image: "./css-logo.svg",
   },
@@ -108,10 +104,6 @@ export const skills = [
   {
     skill: "Tableau",
     image: "./java-icon.svg",
-  },
-  {
-    skill: "Tailwind",
-    image: "./tailwind-logo.svg",
   },
 ];
 
