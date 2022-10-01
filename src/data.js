@@ -35,6 +35,20 @@ export const projects = [
 
 export const experiences = [
   {
+    title: "Cloud Computing Engineering Intern",
+    organization: "Verizon",
+    description:
+      "Enhanced the Verizon Cloud Platform by developing a MB/GB automatic converter with Angular for requesting cloud resources and strengthened the security by developing an API to retrieve KNP data of internal cloud clusters",
+    image: "./verizon-logo.jpeg",
+  },
+  {
+    title: "Full Stack Software Engineer",
+    organization: "Novartis",
+    description:
+      "Worked on internal MVP product to manage data of animal studies. Developed REST API endpoint to extract this data for further analysis, along with database refactors and UI components to enhance user experience",
+    image: "./novartis-logo.webp",
+  },
+  {
     title: "Robotics",
     organization: "Pioneer Robotics 12589",
     description:
@@ -56,10 +70,10 @@ export const experiences = [
     image: "./NortheasternLogo.png",
   },
   {
-    title: "Oasis App Development",
+    title: "Oasis Mentor",
     organization: "Northeastern University",
     description:
-      "Implemented backend features like the creation of users and interaction between users in the Connectwork app. Worked as group coordinator organizing meetings, establishing deadlines, and assigning tasks",
+      "Acted as project manager for multiple student-led application development initiatives as part of Northeastern’s Oasis Accelerator. Helped with establishing deliverables and how to approach ideation and systematic development",
     image: "./OasisLogo.png",
   },
 ];
@@ -74,12 +88,28 @@ export const skills = [
     image: "./python-logo.svg",
   },
   {
+    skill: "Typescript",
+    image: "./typescript-icon.svg",
+  },
+  {
     skill: "JavaScript",
     image: "./javascript-logo.svg",
   },
   {
+    skill: "PostgreSQL",
+    image: "./postgres-icon.png",
+  },
+  {
     skill: "C",
     image: "./C-logo.svg",
+  },
+  {
+    skill: "CSS",
+    image: "./css-logo.svg",
+  },
+  {
+    skill: "HTML",
+    image: "./HTML-logo.svg",
   },
   {
     skill: "React.js",
@@ -90,16 +120,24 @@ export const skills = [
     image: "./nodejs-icon.svg",
   },
   {
+    skill: "nest.js",
+    image: "./nestjs-icon.svg",
+  },
+  {
+    skill: "GraphQL",
+    image: "./graphql-icon.svg",
+  },
+  {
+    skill: "Angular",
+    image: "./angular-icon.svg",
+  },
+  {
+    skill: "TypeORM",
+    image: "./typeorm-icon.svg",
+  },
+  {
     skill: "NumPy",
     image: "./numpy-icon.svg",
-  },
-  {
-    skill: "CSS",
-    image: "./css-logo.svg",
-  },
-  {
-    skill: "HTML",
-    image: "./HTML-logo.svg",
   },
   {
     skill: "Tableau",
