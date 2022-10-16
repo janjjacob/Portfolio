@@ -15,13 +15,21 @@ export const projects = [
     image: "./project-2.gif",
     link: "https://github.com/janjjacob/Maze-Solver",
   },
+  // {
+  //   title: "Connectwork",
+  //   languages: "React Native, Expo, Firebase",
+  //   description:
+  //     "App that faciliates communication between students and instructors to set up events. Currently allows creation of student and instructor accounts, editing accounts, and connecting with other accounts. (In Progress)",
+  //   image: "./project-3.png",
+  //   link: "https://github.com/janjjacob/Connectwork",
+  // },
   {
-    title: "Connectwork",
-    languages: "React Native, Expo, Firebase",
+    title: "Color Guess",
+    languages: "React",
     description:
-      "App that faciliates communication between students and instructors to set up events. Currently allows creation of student and instructor accounts, editing accounts, and connecting with other accounts. (In Progress)",
-    image: "./project-3.png",
-    link: "https://github.com/janjjacob/Connectwork",
+      "Game to test how well you know your hex color codes! You're given a random color and a choice of 3 different possible hexadecimal values for the color. Your goal is to choose the correct hexadecimal.",
+    image: "./project-5.png",
+    link: "https://github.com/janjjacob/color-guessing-game",
   },
   {
     title: "Data Analysis of Crop Production",
