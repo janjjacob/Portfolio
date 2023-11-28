@@ -15,6 +15,21 @@ export const projects = [
     image: "./project-2.gif",
     link: "https://github.com/janjjacob/Maze-Solver",
   },
+  {
+    title: "Bird Image Recognizer",
+    languages: "Python",
+    description:
+        "Developed and trained machine learning model, using forward and backwards propagation, to identify whether an image is a picture of a bird or not with 92% accuracy",
+    image: "./project-6.png",
+    link: "https://github.com/janjjacob/NeuralNetworksAndDeepLearning/tree/main/Week2/NeuralNetworkMindset",
+  },
+  {
+    title: "Planar Data Classification",
+    languages: "Python",
+    description: "Developed and trained machine learning model, using forward and backwards propagation, to classify whether a point is in a red or blue region with 90% accuracy",
+    image: "./project-7.png",
+    link: "https://github.com/janjjacob/NeuralNetworksAndDeepLearning/tree/main/Week3",
+  },
   // {
   //   title: "Connectwork",
   //   languages: "React Native, Expo, Firebase",
@@ -43,6 +58,13 @@ export const projects = [
 
 export const experiences = [
   {
+    title: "Software Engineer Co-op",
+    organization: "Wayfair",
+    description:
+    "Improved internal platforms' performance by restructuring data flow, optimizing queries, and developing a Java Spring REST API for employee data. Enhanced backend architecture and UI of internal tool for better expense management.",
+    image: "./wayfair-logo.jpeg",
+  },
+  {
     title: "Cloud Computing Engineering Intern",
     organization: "Verizon",
     description:
@@ -70,13 +92,13 @@ export const experiences = [
       "Completed MIT Lincoln Laboratory STEM work in Embedded Security and Hacking, integrating a Linux based security system by integrating bootloader, BSP packages, and device drivers to secure firmware updates communicated between microcontrollers",
     image: "./BeaverworksLogo.png",
   },
-  {
-    title: "Teaching Assistant",
-    organization: "Northeastern University",
-    description:
-      "Held 4+ office hours per week to meet individual students for one-on-one academic support and tutoring and provided faculty support in grading and reviewing assignments on concepts such as gates and circuits and asymptotic time complexity",
-    image: "./NortheasternLogo.png",
-  },
+  // {
+  //   title: "Teaching Assistant",
+  //   organization: "Northeastern University",
+  //   description:
+  //     "Held 4+ office hours per week to meet individual students for one-on-one academic support and tutoring and provided faculty support in grading and reviewing assignments on concepts such as gates and circuits and asymptotic time complexity",
+  //   image: "./NortheasternLogo.png",
+  // },
   {
     title: "Oasis Mentor",
     organization: "Northeastern University",
@@ -120,12 +142,20 @@ export const skills = [
     image: "./HTML-logo.svg",
   },
   {
+    skill: "PHP",
+    image: "./php-logo.svg",
+  },
+  {
     skill: "React.js",
     image: "./reactjs-icon.svg",
   },
   {
     skill: "node.js",
     image: "./nodejs-icon.svg",
+  },
+  {
+    skill: "Spring",
+    image: "./spring-icon.svg",
   },
   {
     skill: "nest.js",

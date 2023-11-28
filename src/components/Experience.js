@@ -12,27 +12,27 @@ export default function Experience() {
             Experience
           </h1>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4" style={{ justifyContent: 'space-between' }}>
           {experiences.map((experience) => (
-            <a key={experience.image} className="sm:w-1/2 w-100 p-4">
-              <text className="text-white select-none">{experience.title}</text>
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={experience.image}
-                />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    {experience.title}
-                  </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
-                    {experience.organization}
-                  </h1>
-                  <p className="leading-relaxed">{experience.description}</p>
+              <a key={experience.image} className="sm:w-1/2 w-full sm:p-4 p-2" style={{ flexBasis: '50%', minWidth: '200px', minHeight: '300px' }}>
+                <text className="text-white select-none">{experience.title}</text>
+                <div className="flex relative" style={{ width: '100%', height: '100%' }}>
+                  <img
+                      alt="gallery"
+                      className="absolute inset-0 w-full h-full object-cover object-center"
+                      src={experience.image}
+                  />
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                      {experience.title}
+                    </h2>
+                    <h1 className="title-font text-lg font-medium text-white mb-3">
+                      {experience.organization}
+                    </h1>
+                    <p className="leading-relaxed">{experience.description}</p>
+                  </div>
                 </div>
-              </div>
-            </a>
+              </a>
           ))}
         </div>
       </div>
