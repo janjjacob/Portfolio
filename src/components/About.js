@@ -16,10 +16,16 @@ export default function About() {
           </Typist>
           <FadeIn startDelay={5000}>
             <p className="mb-8 leading-relaxed">
-              I'm a junior computer science major at Northeastern University!
-              I've focused my work on projects and designs that implement
-              user-facing features. I am looking to continue to develop my skill
-              set in software development and on predictive data analysis.
+              Welcome to my website! I'm a dedicated and results-driven software engineer with a passion for creating innovative and efficient solutions. I am pursuing a Bachelor's degree in Computer Science from Northeastern University.
+            </p>
+            <p className="mb-8 leading-relaxed">
+              What sets me apart is my commitment to delivering high-quality code that aligns with industry best practices. I thrive in collaborative environments and am adept at working with cross-functional teams to translate business requirements into robust and scalable software solutions.
+            </p>
+            <p className="mb-8 leading-relaxed">
+              I'm passionate about tackling challenges and contributing to innovative projects. Beyond work, I stay active on the basketball court, go on long distance runs, and explore practical math applications. I'm also an avid reader of non-fiction and psychology books, chess enthusiast, and music lover!
+            </p>
+            <p className="mb-8 leading-relaxed">
+              That's me! I'm passionate and excited to take on any challenge. I hope that I can continue to take on exciting challenge, learn, and make a lasting impact on others, having fun along the way!
             </p>
           </FadeIn>
           <div className="flex justify-center">
